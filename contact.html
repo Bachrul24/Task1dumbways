@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <!-- awal fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- akhir font -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <ul>
+                <li>
+                    <a href="index.html"><img src="images/logoDW.png" alt="logo" /></a>
+                </li>
+                <li>
+                    <a href="index.html" >Home</a>
+                </li>
+                <li>
+                    <a href="#">My Project</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a href="contact.html" target="_blank">Contact Me</a>
+        </div>
+    </nav>
+
+    <div class="title-contact">
+        <h1>GET IN TOUCH</h1>
+    </div>
+
+    <div class="form">
+    <form>
+        <div>
+            <label for="input-name">Nama</label>
+            <input type="text" id="input-name" placeholder="Enter Your Full Name Here....">
+        </div>
+        <div>
+            <label for="input-email">Email</label>
+            <input type="text" id="input-email" placeholder="Enter Your Valid Email Here....">
+        </div>
+        <div>
+            <label for="input-number">Phone Number</label>
+            <input type="number" id="input-number" placeholder="Enter Your Number Here...." required />
+        </div>
+        <div>
+            <label for="input-subject">Subject</label>
+            <select id="input-subject" required>
+                <option value="" hidden>Select</option>
+                <option>Frontend</option>
+                <option>Backend</option>
+                <option>Fullstack</option>
+            </select>
+        </div>
+        <div>
+            <label for="input-message">Your Message</label>
+            <textarea required rows="3" cols="10" class="" id="input-message" placeholder="Write Something In Here...."></textarea>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+    </div>
+
+</body>
+</html>

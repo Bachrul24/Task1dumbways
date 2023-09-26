@@ -3,69 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Card</title>
+
+    <!-- awal fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- akhir font -->
+    <!-- cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Start Navbar -->
+    <nav>
+        <div class="nav-left">
+            <ul>
+                <li>
+                    <a href="index.html"><img src="images/logoDW.png" alt="logo" /></a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">My Project</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a href="contact.html" target="_blank">Contact Me</a>
+        </div>
+    </nav>
+    <!-- end navbar -->
     <div class="container">
-        <h1>Hi! Welcome to my hut</h1>
-        <p>Saya adalah Mahasiswa semester akhir Universitas Pamulang, Saya mengikuti dumbways karna ingin mencoba minat saya dalam bidang IT dan juga ingin mencoba berkarir dalam dunia Programmer, sebelumnya saya bekerja di sebuah lembaga Koperasi </p>
-        <div class="button">
-            <a class="contact" href="#">CONTACT</a>
+        <div class="main-1">
+            <h1>Hi! Welcome to my hut</h1>
+            <p class="content">Saya adalah Mahasiswa semester akhir Universitas Pamulang, Saya mengikuti dumbways karna ingin mencoba minat saya dalam bidang IT dan juga ingin mencoba berkarir dalam dunia Programmer, Sebelumnya saya bekerja di lembaga Koperasi simpan pinjam selama 5Tahun lebih.</p>
+            <!-- button contact dan cv -->
+            <div class="section">
+                <div class="btn-contact">
+                    <a class="contact" href="contact.html">Contact</a>
+                </div>
+                <div class="cv" >
+                    <a href="#">Download CV</a>
+                    <i class="fa-solid fa-download"></i>
+                </div>
+            </div>
+            <!-- Logo Sosial Media -->
+            <div class="social-media" style="margin-top: 5px;" >
+                <a href="https://www.linkedin.com/in/muchammad-bachrul-ulum-016848289/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+            </div>
+            <!-- akhir logo sosmed -->
         </div>
 
-        <p>download CV
-            <img src="images/logodownload.png" width="15em" alt="Unduhan">
-        </p>
-
-        <!-- Logo Sosial Media -->
-        <div class="sosmed">
-            <a class="logo" href="https://www.linkedin.com/in/muchammad-bachrul-ulum-016848289/">
-                <img class="sosmed-logo" src="images/logolinkedin.png"  alt="">
-            </a>
-            <a class="logo" href="#">
-                <img class="sosmed-logo" src="images/LogoIg.png"  alt="">
-            </a>
-            <a class="logo" href="#">
-                <img class="sosmed-logo" src="images/logoFacebook.png"  alt="">
-            </a>
-            <a class="logo" href="#">
-                <img class="sosmed-logo" src="images/logoTwitter.png"  alt="">
-            </a>
-        </div>
-        <!-- akhir logo sosmed -->
-
-        <!-- <table>
-            <tr>
-                <th>
-                    <a href="https://www.linkedin.com/in/muchammad-bachrul-ulum-016848289/">
-                        <img src="images/logolinkedin.png" width="30em" alt="">
-                    </a>
-                </th>
-                <th>
-                    <a href="#">
-                        <img src="images/LogoIg.png" width="30em" alt="">
-                    </a>
-                </th>
-                <th>
-                    <a href="#">
-                        <img src="images/logoFacebook.png" width="30em" alt="">
-                    </a>
-                </th>
-                <th>
-                    <a href="#">
-                        <img src="images/logoTwitter.png" width="30em" alt="">
-                    </a>
-                </th>
-            </tr>
-        </table> -->
-    
-        <div class="main-3">
+        <div class="main-2">
             <img class="fotoku" src="images/Bachrul.jpg" alt="">
-            <h3>M. Bachrul Ulum</h3>
+            <h3>Muchammad Bachrul Ulum</h3>
             <h3>Fullstack Developer</h3>
         </div>
     </div>
+    
     
 </body>
 </html>

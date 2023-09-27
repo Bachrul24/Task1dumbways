@@ -61,138 +61,140 @@ nav ul li img {
 .nav-right a:hover {
     background-color: #f52f07;
 }
-/* End Navbar style */
+/* ===End Navbar style=== */
 
-/* Home style */
-.container {
+/* ===Home style=== */
+section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    height: 92vh;
+}
+
+.container {
     width: 1200px;
-    height: 530px;
-    border-radius: 20px 20px 20px 20px;
-    margin: 50px auto;
-    text-align: left;
-    background-color: white;
-    box-shadow: 10px 10px 30px black;
-}
-
-.main-1 {
-    width: 600px;
-    height: 600px;
-    margin: 180px 0px 50px 80px;
-}
-
-.main-1 h1 {
-    font-family: 'nunito';
-}
-
-.content {
-    text-align: justify;
-    font-family: 'poppins';
-}
-
-.section {
+    box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    
+    box-shadow: 8px 8px 20px black,8px 8px 15px black;
+    border-radius: 10px;
 }
 
-.btn-contact {
-    background-color: black;
-    width: 100px;
-    margin-top: 35px;
-    padding: 8px 8px;
-    border-radius: 25px 25px 25px 25px;
-    text-align: center;
+.container .main-left {
+    padding: 45px 35px 0 75px;
+    text-align: justify;
+    flex: 70%;
+}
+
+.card-1 h1 {
+    display: block;
+    font-size: 1.5em;
+    font-family: 'nunito';
+    font-weight: bold;
+}
+
+.card-1 p {
+    display: block;
     font-family: 'poppins';
 }
 
-.btn-contact:hover {
+.card-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 15px 50px 0px;
+}
+
+.card-2 .btn-contact a {
+    margin: 0px 15px 25px 0px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 50px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins';
+}
+
+.card-2 .btn-contact a:hover {
     background-color: #87cefa;
 }
 
-.contact {
-    color: white;
+.card-2 .btn-download {
+    margin-left: 25px;
+}
+
+.card-2 .btn-download a {
     font-family: 'poppins';
-    font-size: large;
-    text-decoration: none;
-}
-
-
-.cv i {
-    margin-right: 280px;
-    font-size: 20px;
-}
-
-.cv a {
-    font-size: 20px;
     text-decoration: none;
     color: #000000;
-    font-family: 'poppins';
 }
 
-.cv a:hover {
+.card-2 .btn-download a:hover {
     color: #87cefa;
 }
 
-
-
-
-.social-media i {
-    margin-top: 50px;
-    margin-right: 30px;
-    font-size: 40px;
+.social-media {
+    margin-top: 80px;
+    font-size: 3em;
 }
 
 .social-media a {
-    color: black;
+    margin-right: 15px;
+    color: #000000;
 }
 
 .social-media a:hover {
     color: #87cefa;
 }
 
-.main-2 {
+.main-right {
     width: 300px;
-    margin: 0 80px 0 0;
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px black;
-
-}
-
-.main-2 h3 {
-    margin: 0px;
+    margin: 50px 50px 50px 50px;
+    flex: 30%;
     text-align: center;
-    font-family: 'poppins'
-} 
-
-.fotoku {
-    width: 300px;
-    height: 400px;
-    border-radius: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px black;
 }
-/* end Home style */
 
-/* Contact Style */
+.main-right img {
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+}
 
-.title-contact h1 {
+.main-right h3 {
+    margin: 5px;
+    font-family: 'poppins';
+}
+/* ===End Home Style=== */
+
+/* ===Contact Style===*/
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .form {
+    width: 500px;
+}
+
+.content .form h1 {
+    text-align: center;
     font-family: 'nunito';
-    text-align: center;
+    display: block;
 }
 
 .form {
-    width: 500px;
-    margin: 0 500px 0 500px;
     background-color: #87cefa;
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;
 }
 
 form {
-    width: 300px;
-    margin: 25px auto;
+    width: 350px;
+    margin: 20px auto;
     padding: 10px;
     font-family: 'poppins';
 }
@@ -210,6 +212,7 @@ input,
 select,
 textarea {
     background-color: #dfdede;
+    box-sizing: border-box;
     width: 100%;
     padding: 10px;
     margin-top: 5px;

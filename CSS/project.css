@@ -1,0 +1,273 @@
+body {
+    margin: 0 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    /* background-image: url(images/17545.jpg);
+    background-repeat: no-repeat; */
+    /* background-position: right; */
+}
+
+/* Navbar style */
+nav {
+    /* background-color: #87cefa; */
+    background-image: linear-gradient(85deg, #ffc9ff 0, #ffc0ff 12.5%, #ffb6ff 25%, #ffabff 37.5%, #f29df2 50%, #cd8fdf 62.5%, #ad83cd 75%, #9278bc 87.5%, #7a6fae 100%);
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    width: 100vw;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li :hover {
+    color: #ff4500;
+}
+
+nav ul li img {
+    margin-top: 5px;
+    width: 45px;
+}
+
+.nav-left {
+    flex: 50%;
+}
+
+.nav-right {
+    flex: 50%;
+    text-align: end;
+    margin-right: 25px;
+}
+
+.nav-right a {
+    background-color: rgb(12, 12, 12);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.nav-right a:hover {
+    background-color: #f52f07;
+}
+
+/* ===End Navbar style=== */
+
+/* ===Body Style */
+
+.project .project-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f0f0;
+}
+
+.project .project-form .form-main {
+    width: 460px;
+    margin: 0;
+    padding: 0;
+}
+
+.project .project-form .form-main form h1 {
+    font-family: 'Nunito';
+    text-align: center;
+    display: block;
+}
+
+.project form label {
+    font-size: 15px;
+    font-family: 'poppins';
+}
+
+.input {
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    resize: none;
+}
+
+
+
+.input-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-main form textarea {
+    height: 150px;
+}
+
+.form-main form p {
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'poppins';
+}
+
+.form-main form .choose-techno {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px 15px 0px;
+
+}
+
+.input-image-group {
+    width: 100%;
+    font-size: 15px;
+    padding: 5px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    resize: none;
+}
+
+.input-image-group label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-image-group label p {
+    margin: 0px 0px 0px 0px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 1px;
+    background-color: #9c9999;
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins';
+    cursor: pointer;
+}
+
+.submit-data {
+    background-color: rgb(11, 11, 11);
+    color: white;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    position: static;
+    display: block;
+    margin-left: 375px;
+}
+
+.submit-data:hover {
+    background-color: #ff4500;
+}
+
+/* list-css */
+.project-list .title-list {
+    font-family: 'nunito';
+    text-align: center;
+}
+
+.project-list .project-main {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    row-gap: 40px;
+}
+.project-list .project-main .list-card {
+    width: 350px;
+    box-shadow: 2px 2px 25px black;
+    border-radius: 10px;
+    margin: 0px 80px 15px 80px;
+    font-family: 'poppins';
+}
+
+.project-list .project-main .list-card img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.project-list .project-main .list-card a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #000000;
+    padding-left: 25px;
+    font-style: bold;
+}
+
+.project-list .project-main .list-card .date {
+    font-size: 12px;
+    font-weight: 100;
+    padding-left: 25px;
+}
+
+.project-list .project-main .list-card p {
+    text-align: justify;
+    font-size: 0.8em;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.project-list .project-main .list-card .logo-techno {
+    font-size: 2em;
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+.project-list .project-main .list-card .btn-action {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.project-list .project-main .list-card .btn-action .btn-edit {
+    background-color: rgb(11, 11, 11);
+    color: white;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    flex:50%;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.project-list .project-main .list-card .btn-action .btn-edit:hover {
+    background-color: #ff4500;
+}
+
+.project-list .project-main .list-card .btn-action .btn-delete {
+    background-color: rgb(11, 11, 11);
+    color: white;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    flex: 50%;
+    margin-right: 25px;
+    margin-left: 10px;
+}
+
+.project-list .project-main .list-card .btn-action .btn-delete:hover {
+    background-color: #ff4500;
+}
